@@ -1,20 +1,26 @@
 # Phonepe-Pulse-Data-Visualization
 
-The aim of this project is to develop a solution that extracts, transforms, and visualizes data from the Phonepe Pulse GitHub repository. 
+This project intends to provide users to visualize the Github PhonePe Repository details of India for the period from 2018 - 2023 on various metrics.
 
-The process involves:
+phonepe_plus.py
+  Extraction of cloned Repositoty data to PostgreSQL
+phonepe_plot.py
+  Visualization of extracted data in the form of plots in streamlit application on various insights.
 
-1. Data Extraction:
-Scripting to clone the repository and collect data.
+Libraries to be imported:
+1.os
+2.json
+3.plotly.express
+4.streamlit
+5.psycopg2
+6.pandas
 
-2. Data Transformation:
-Using Python and Pandas to clean and structure the data.
+Approach:
+1. Data extraction: Clone the Github using scripting to fetch the data from the Phonepe pulse Github repository and store in JSON format.
 
-3. Database Insertion:
-Storing transformed data in a POSTGRESQL database.
+2. Data transformation: Transform the JSON file to SQL table and store it in POSTGRESQL database.
 
-4. Dashboard Creation:
-Using Streamlit and Plotly to build an interactive dashboard.
+3. Dashboard creation: Using the Streamlit and Plotly libraries an interactive and visually appealing dashboard has been created.
 
-5. Data Retrieval:
-Fetching data from the database to dynamically update the dashboard.
+Work flow:
+The user can navigate through multiple options provide to view the data graphically
