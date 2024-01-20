@@ -9,10 +9,15 @@ phonepe_plot.py
 
 Libraries to be imported:
 1.os
+
 2.json
+
 3.plotly.express
+
 4.streamlit
+
 5.psycopg2
+
 6.pandas
 
 Approach:
