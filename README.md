@@ -2,10 +2,10 @@
 
 This project intends to provide users to visualize the Github PhonePe Repository details of India for the period from 2018 - 2023 on various metrics.
 
-phonepe_plus.py
+phonepe_plus.py ==>
   Extraction of cloned Repositoty data to PostgreSQL
 
-phonepe_plot.py
+phonepe_plot.py ==>
   Visualization of extracted data in the form of plots in streamlit application on various insights.
 
 Libraries to be imported:
